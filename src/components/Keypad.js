@@ -10,7 +10,7 @@ class Keypad extends Component {
   render() {
     return (
       <div>
-       <input type='password' onChange={this.handleIsKeyUp}/>
+       <input type='password' onKeyUp={this.handleIsKeyUp}/>
       </div>
     );
   }
